@@ -1,0 +1,12 @@
+/* Add Tailwind’s default base, components, and utilities styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.outline-text {
+    -webkit-text-stroke: 2px white; /* White text outline */
+    color: transparent; /* Transparent fill */
+  }
+  
+
+
