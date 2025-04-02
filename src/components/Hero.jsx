@@ -1,7 +1,6 @@
 import React from "react";
 import heroBg from "../assets/hero-image.jpg"; // Desktop Image
 import mobileHeroBg from "../assets/mobile-hero.jpg";
-// import ScrollIndicator from "./ScrollIndicator";
 import { ScrollIndicator } from "./ScrollIndicator";
 import Typewriter from 'typewriter-effect';
 
