@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const sections = ["hero", "about", "skills", "projects", "contact"];
 
-const ScrollIndicator = ({ setActiveSection }) => {
+export const ScrollIndicator = ({ setActiveSection }) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
@@ -66,5 +66,3 @@ const ScrollIndicator = ({ setActiveSection }) => {
     </div>
   );
 };
-
-export default ScrollIndicator;
