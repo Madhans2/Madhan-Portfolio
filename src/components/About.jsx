@@ -35,7 +35,7 @@ const About = () => {
         <h2 className="text-4xl md:text-5xl font-bold">About Me</h2>
         <h1 className="text-2xl md:text-3xl font-serif font-bold mt-4">I'M Madhan</h1>
         <p className="text-lg text-gray-400 mt-2 font-serif">
-          <h2 className="font-serif">Welcome to my professional portfolio!</h2>
+          <span className="font-serif font-bold">Welcome to my professional portfolio! </span>
           I'm Madhan, a Computer Science student at KPR Institute of Engineering and Technology, 
           passionate about web design and development.
           Skilled in HTML, CSS, JavaScript, and modern frameworks, I create responsive, user-friendly 

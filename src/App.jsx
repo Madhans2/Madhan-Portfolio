@@ -7,7 +7,7 @@ import CrownClothing from "./components/CrownClothing";
 import FitHealthy from "./components/FitHealthy";
 import Contact from "./components/Contact";
 // import ScrollIndicator from "./components/ScrollIndicator";
-import { ScrollIndicator } from "./Components/ScrollIndicator";
+import { ScrollIndicator } from "./components/ScrollIndicator";
 import ContactButton from "./components/ContactButton";
 import Text from "./components/Text";
 import Loader from "./components/loader/Loader";
