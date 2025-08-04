@@ -1,5 +1,5 @@
 import React from "react";
-import dressshop from "../assets/dressshop.png";
+import Todo from "../assets/todo.png";
 
 const FitHealthy = ({ setActiveSection }) => {
   return (
@@ -8,7 +8,7 @@ const FitHealthy = ({ setActiveSection }) => {
       {/* Top Section - Image for Mobile First */}
       <div className="w-full md:w-1/2 flex justify-center items-center mb-6 md:mb-0">
         <img
-          src={dressshop}
+          src={Todo}
           alt="Fit & Healthy App"
           className="w-80 h-60 md:w-96 md:h-72 rounded-lg"
         />
@@ -17,8 +17,8 @@ const FitHealthy = ({ setActiveSection }) => {
       {/* Bottom Section - Text Content */}
       <div className="w-full md:w-1/2">
         <h3 className="text-gray-400 uppercase tracking-widest text-sm">E-COMMERCE APPLICATION</h3>
-        <h2 className="text-4xl md:text-5xl font-bold my-4">FOREVER</h2>
-        <p className="text-gray-400 mb-4">Online store for selling apparel & footwear.</p>
+        <h2 className="text-4xl md:text-5xl font-bold my-4">Todo_App</h2>
+        <p className="text-gray-400 mb-4">A Todo List helps organize, prioritize, and track tasks to improve productivity and time management.</p>
 
         <p className="text-gray-400 text-sm">
           <strong className="text-white">Built with:</strong> React, Vite, Node, JavaScript, 
@@ -27,7 +27,14 @@ const FitHealthy = ({ setActiveSection }) => {
 
         {/* Buttons */}
         <div className="mt-6">
-          <a href="#" className="text-green-400 hover:underline font-bold">Visit the app →</a>
+          <a
+            href="https://todo-app1-jade.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-400 hover:underline font-bold"
+          >
+            Visit the app →
+          </a>
         </div>
       </div>
 
