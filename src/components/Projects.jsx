@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import CrownClothing from "./CrownClothing";
 import FitHealthy from "./FitHealthy";
+import Quickpick from "./QuickPick"; // ✅ New project import
 
 const Projects = ({ setActiveSection }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showProjects, setShowProjects] = useState(false);
 
-  const projectComponents = [<CrownClothing />, <FitHealthy />];
+  // ✅ Add Quickpick to the array
+  const projectComponents = [<CrownClothing />, <FitHealthy />, <Quickpick />];
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) =>

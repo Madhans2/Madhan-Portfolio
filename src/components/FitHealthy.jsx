@@ -18,15 +18,6 @@ const FitHealthy = () => {
       <div className="w-full md:w-1/2">
         <h3 className="text-gray-400 uppercase tracking-widest text-sm">Todo Application</h3>
         <h2 className="text-4xl md:text-5xl font-bold my-4">Todo_App</h2>
-        <p className="text-gray-400 mb-4">
-          A Todo List helps organize, prioritize, and track tasks to improve productivity and time management.
-        </p>
-
-        <p className="text-gray-400 text-sm">
-          <strong className="text-white">Built with:</strong> React, Vite, Node, JavaScript, 
-          MongoDB, TailwindCSS, ExpressJS.
-        </p>
-
         {/* Buttons */}
         <div className="mt-6">
           <a
@@ -38,6 +29,14 @@ const FitHealthy = () => {
             Visit the app →
           </a>
         </div>
+        <p className="text-gray-400 mb-4">
+          A Todo List helps organize, prioritize, and track tasks to improve productivity and time management.
+        </p>
+
+        <p className="text-gray-400 text-sm">
+          <strong className="text-white">Built with:</strong> React, Vite, Node, JavaScript, 
+          MongoDB, TailwindCSS, ExpressJS.
+        </p>
       </div>
     </div>
   );
